@@ -97,6 +97,14 @@ Meta
 - Mailing list: `statsd@librelist.com`
 
 
+Config.js 新增配置说明
+---------
+- debug：1/0 开启关闭deug，用户调试
+- defaultProfix：[新增] 默认前缀，需要配合legacyNamespace使用
+- legacyNamespace：1/0 开启关闭命名空间记录方式，配合defaultProfix使用改为1
+
+
+
 
 [graphite]: http://graphite.readthedocs.org/
 [etsy]: http://www.etsy.com
